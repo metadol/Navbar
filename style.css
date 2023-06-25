@@ -1,18 +1,19 @@
 *{
     margin: 0;
 }
-.navbar{
-    height: 100px;
-    background-color: black;
-    color: white;
+header{
+   
+   background-color: aqua; 
+   display: flex;
+   justify-content: end;
+    
 }
 
-.list{
-    display: flex;
-    justify-content: end;
-    font-size: 4vh;
-    background-color:rgb(64, 59, 59);
+ul{
+    list-style: none;
 }
+
 li{
-   padding: 0 1vh 0 2vh;
+    display: inline-block;
+    padding: 4vh 4vh;
 }
